@@ -122,19 +122,19 @@ function makeQuestion () {
     <fieldset>
     <label class="answerOption">
     <input type="radio" value="${dataForQuestions[selectedQuestion].answers[0]}" name="answer" required>
-    <span id="answersSpan">${dataForQuestions[selectedQuestion].answers[0]}</span>
+    <span class="answersSpan">${dataForQuestions[selectedQuestion].answers[0]}</span>
     </label>
     <label class="answerOption">
     <input type="radio" value="${dataForQuestions[selectedQuestion].answers[1]}" name="answer" required>
-    <span id="answersSpan">${dataForQuestions[selectedQuestion].answers[1]}</span>
+    <span class="answersSpan">${dataForQuestions[selectedQuestion].answers[1]}</span>
     </label>
     <label class="answerOption">
     <input type="radio" value="${dataForQuestions[selectedQuestion].answers[2]}" name="answer" required>
-    <span id="answersSpan">${dataForQuestions[selectedQuestion].answers[2]}</span>
+    <span class="answersSpan">${dataForQuestions[selectedQuestion].answers[2]}</span>
     </label>
     <label class="answerOption">
     <input type="radio" value="${dataForQuestions[selectedQuestion].answers[3]}" name="answer" required>
-    <span id="answersSpan">${dataForQuestions[selectedQuestion].answers[3]}</span>
+    <span class="answersSpan">${dataForQuestions[selectedQuestion].answers[3]}</span>
     </label>
     <button type="submit" class="submitButton">Submit</button>
     </fieldset>

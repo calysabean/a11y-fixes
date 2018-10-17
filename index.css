@@ -205,7 +205,7 @@ font-size: 20px;
 padding-bottom: 20px;
 }
 
-#answersSpan {
+.answersSpan {
 color: black;
 font-weight: bold;
 }
