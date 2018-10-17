@@ -1,0 +1,257 @@
+* { box-sizing: border-box; font-family: 'Raleway', sans-serif; 
+}
+
+body {
+background:url('HomeBGP.jpg') no-repeat center fixed;
+background-size: cover;
+width: 100%;
+}
+ 
+main {
+margin-left: auto;
+margin-right: auto;
+}
+
+.openingPage {
+margin-top: 100px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+ 
+ h1 {
+background-color: rgba(0,0,0, 0.7);
+border: solid white;
+color: white;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+ 
+ h2 {
+color: white;
+background-color: rgba(0,0,0, 0.7);
+text-align: center;
+margin-bottom: 0px;
+border: solid white;
+}
+ 
+.quizStart {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+              
+}
+button {
+display: block;
+background: black;
+color: white;
+width: 94%;
+height: 100px;
+padding-top: 0px;
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
+}
+ 
+button:hover {
+background-color: red;
+color: white;
+}
+ 
+.formAndCss {
+display: none;
+width: 50%;
+margin-top: 100px;
+}
+
+.quizStart {
+width: 100%;
+padding: 40px;
+margin-top: 0
+    }
+
+.answerOption {
+color: white;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  background: rgba(255,255,255, 0.9);
+}
+
+.answerOption {
+  display: block;
+  padding-bottom: 2px;
+}
+input {
+display: block;
+}
+
+input[type="radio"] {
+  float:left;
+}
+
+span {
+display: block;
+width: 100%;
+font-size: 20px;
+padding-right: 0px;
+
+}
+
+.formAndCss {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.submitButton {
+display: block;
+background: black;
+color: white;
+width: 50%;
+height: 20px;
+padding-top: 10px;
+margin-left: auto;
+margin-right: auto;
+font-size: 16px;
+padding-bottom: 25px;
+margin-top: 10px;
+}
+
+h2 {
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 0;
+}
+
+span {
+display: inline;
+font-size: 20px;
+padding-right: 0px;
+color: white;
+}
+
+#status-bar:before {
+content: " ";
+display:block;
+text-align:center;
+}
+
+#question-count {
+display:block;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.4);
+border-left: solid white;
+border-right: solid white;
+padding-top: 10px;
+}
+
+.correctFeedback {
+background:rgba(0, 0, 0, 0.7);
+text-align: center;
+font-family: 'Raleway', sans-serif;
+color: white;
+font-size: 30px;
+height: 400px;
+border: solid white;
+}
+
+.incorrectFeedback {
+  background:rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 30px;
+  height: 450px;
+  border: solid white;
+
+}
+
+#score-count {
+display:block;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.4);
+border-left: solid white;
+border-right: solid white;
+border-bottom: solid white;
+padding-bottom: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .correctFeedback, .formAndCss {
+  width: 100%;
+  display: block;
+  margin: auto;
+    }
+}
+
+#wrong-right{
+color: red;
+font-size: 30px;
+}
+
+.nextButton {
+padding-top: 20px;
+font-size: 20px;
+padding-bottom: 20px;
+}
+
+#answersSpan {
+color: black;
+font-weight: bold;
+}
+
+.formStyling {
+border: solid white ;
+}
+
+.restartButton {
+margin-top: 10px;
+border: solid white;
+}
+
+.correctAnswerIcon img {
+width: 200px;
+height: 112px;
+}
+
+.sevenPlus {
+width: 200px;
+height: 112px;
+}
+
+.incorrectAnswerIcon img {
+width: 200px;
+height: 112px;
+}
+
+.sevenToFive {
+width: 262px;
+height: 100px;
+}
+
+.underFive {
+width: 200px;
+height: 200px;
+}
+.fourAndBelow p:nth-child(2){
+  border: solid white;
+  padding: 2px;
+  background: rgba(0,0,0, 0.7);
+}
+
+.fourAndBelow p:nth-child(1){
+background: rgba(0,0,0, 0.9);
+color: red;
+font-size:50px;
+border-bottom: white;
+}
